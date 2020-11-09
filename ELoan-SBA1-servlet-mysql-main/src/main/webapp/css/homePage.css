@@ -1,0 +1,102 @@
+.loanOption, input[type='button'], input[type='submit'] {
+	border-radius: 3px;
+	border: 1px;
+	margin: auto;
+	display: inline-block;
+	cursor: pointer;
+	font-family: Georgia, serif;
+	font-size: 14px;
+	padding: 6px 12px;
+	text-decoration: none;
+	background: #220846;
+	font-weight: 900;
+	color: aliceblue;
+	position: relative;
+	width: 250px;
+}
+
+
+.loanOption:hover, input[type='button']:hover, input[type='submit']:hover {
+	background: #7548b3;
+    font-weight: 900;
+    color: black;
+}
+	
+
+
+input#logout {
+	border-radius: 3px;
+	border: 1px;
+	margin: auto;
+	display: inline-block;
+	cursor: pointer;
+	font-family: Georgia, serif;
+	font-size: 14px;
+	padding: 6px 12px;
+	text-decoration: none;
+	background: #67273c;
+	font-weight: 900;
+	color: aliceblue;
+	position: relative;
+	width: 100px;	
+}
+
+input#logout:hover {
+	background: #ab5672;
+	color: #000;
+}
+
+table.applyLoanTable, table.editLoanTable{
+	width: 550px;;
+	height: 80px;
+	border-collapse: collapse;
+	margin: auto;
+	vertical-align: middle;
+	border-spacing: 0;
+	border-radius: 4px;
+	background: #74757d;
+	position: relative;
+	box-shadow: 3px 3px 3px #1f0d29;
+}
+
+
+tr>td:first-child>label
+{
+	font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 50px;
+    color: #00047b;
+    
+}
+
+table.newUser>tbody>tr>td:first-child>label
+{
+	font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 50px;
+    color: #00047b;
+}
+
+
+table.pswd>tbody>tr>td:first-child>label
+{
+	font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    color: #00047b;
+}
+
+
+.loanInfo ,input{
+	font-size: 15px;
+	font-family: sans-serif;
+	background: #d1ceff;
+	border: black;
+	border-style: solid;	
+	border-width: thin;
+}
+
+}
+
